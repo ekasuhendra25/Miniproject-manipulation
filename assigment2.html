@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Menggunakan onmouseover and onmouseout events -->
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: #7fbb18; width: 150px; height: 10px; padding: 20px; color: blueviolet">Mouse Over Me</div>
+
+    <script>
+      function mOver(obj) {
+        obj.innerHTML = "Terimaksih";
+      }
+      function mOut(obj) {
+        obj.innerHTML = "Mouse Over Me";
+      }
+    </script>
+  </body>
+</html>
