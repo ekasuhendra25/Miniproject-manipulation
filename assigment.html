@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Create element,style and add dengan appendchild -->
+    <script>
+      let button = document.createElement("button");
+      button.innerHTML = "Touch Me";
+      button.onclick = () => {
+        alert("Touched");
+      };
+      document.body.appendChild(button);
+      button.style.color ='blue'
+    </script>
+  </body>
+</html>
